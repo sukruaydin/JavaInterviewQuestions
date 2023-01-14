@@ -1,5 +1,7 @@
 package triangle;
 
+import java.util.Scanner;
+
 public class Pyramid_Up_Asteriks {
 
     public static void main(String[] args) {
@@ -18,12 +20,14 @@ public class Pyramid_Up_Asteriks {
                 at the beginning of each raw --> raw*2-numberOfRaw*2 times space
          */
 
-        int raw = 7;
+        int raw = 5;
 
         for (int i = 1; i <= raw; i++) {
                 System.out.print(" ".repeat((raw*2)-(i*2)));
                 System.out.println("* ".repeat((i*2)-1));
         }
+
+
 
 
     }
