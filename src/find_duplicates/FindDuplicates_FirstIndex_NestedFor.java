@@ -4,6 +4,10 @@ public class FindDuplicates_FirstIndex_NestedFor {
 
     public static void main(String[] args) {
 
+        /*
+               find first duplicated char's index
+         */
+
         String s = "asdffgg";
 
         for (int i = 0; i < s.length(); i++){

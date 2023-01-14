@@ -8,6 +8,10 @@ public class FindDuplicates_FirstIndex_FrequencyMethod {
 
     public static void main(String[] args) {
 
+        /*
+               find first duplicated char's index
+         */
+
         String s = "asdffgg";
 
         ArrayList<String> list = new ArrayList<>(Arrays.asList(s.split("")));
