@@ -5,11 +5,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class FrequencyOfLetter {
+public class Frequency_Letter_NestedFor {
 
     public static void main(String[] args) {
 
-        //1st way
+        /*
+                result = a4b2c1
+         */
+
+        //1st way -- NESTED FOR LOOP
         String s = "aaabbca";
         String result = "";
         for (int i = 0; i < s.length(); i++) {
@@ -28,21 +32,6 @@ public class FrequencyOfLetter {
         }
         System.out.println("result = " + result);
 
-
-        //2nd way
-        String result2 = "";
-        //going for array
-        String[] arr = s.split("");
-        //going for arrayList to use frequency method
-        ArrayList<String> list = new ArrayList<>(Arrays.asList(arr));
-        for (String each : list) {
-            int frequency = Collections.frequency(list, each);
-            if (result2.contains(each)){
-                continue;
-            }
-            result2 += "" + each + frequency;
-        }
-        System.out.println("result2 = " + result2);
 
     }
 

@@ -9,8 +9,8 @@ public class ReverseArrayList {
 
         /*
                 reverse an ArrayList
-                input : 1,2,3,4,5
-                output : 5,4,3,2,1
+                    input : 1,2,3,4,5
+                    output : 5,4,3,2,1
          */
 
         Integer[] arr = {1,2,3,4,5};

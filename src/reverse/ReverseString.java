@@ -10,6 +10,7 @@ public class ReverseString {
             get a string from user
             print the reversed version of it
          */
+
         Scanner scan = new Scanner(System.in);
         System.out.println("enter a string :");
         String s = scan.next();
