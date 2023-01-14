@@ -18,7 +18,7 @@ public class Pyramid_Up_Numbers {
             System.out.print(" ".repeat(raw*2-i*2));
             int k = i;
             for (int j = 1; j <= i*2-1; j++) {
-                if (j<=(i*2-1)/2){
+                if (j<i){
                     System.out.print((k++)+" ");
                 }else {
                     System.out.print((k--)+" ");

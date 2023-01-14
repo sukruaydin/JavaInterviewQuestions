@@ -10,6 +10,7 @@ public class Pyramid_Up_Asteriks {
                         * * * * *
                       * * * * * * *
                     * * * * * * * * *
+
          */
 
         /*
