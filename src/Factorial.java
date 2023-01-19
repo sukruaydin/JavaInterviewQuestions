@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Factorial {
 
     public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class Factorial {
         }
 
         System.out.println("result = " + result);
-        
+
     }
     
 }
