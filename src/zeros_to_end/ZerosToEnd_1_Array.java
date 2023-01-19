@@ -2,7 +2,7 @@ package zeros_to_end;
 
 import java.util.Arrays;
 
-public class ZerosToEnd_1 {
+public class ZerosToEnd_1_Array {
 
     public static void main(String[] args) {
 
